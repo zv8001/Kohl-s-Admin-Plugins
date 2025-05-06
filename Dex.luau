@@ -1,7 +1,7 @@
 
 --[[
 I programmed the Dex Explorer into Kohl's Admin
--z3kc200
+
 ]]
 
 return function(_K)
@@ -12,7 +12,7 @@ return function(_K)
 		aliases = {"dexnew"},
 		description = "Opens Dex",
 
-		group = "General",
+		group = "superadmin",
 
 		args = {
 		
