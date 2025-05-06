@@ -18,7 +18,7 @@ return function(_K)
 		aliases = {"s","MakeScript","script"},
 		description = "Executes a script",
 
-		group = "General",
+		group = "superadmin",
 
 		args = {
 			{
