@@ -128,7 +128,6 @@ return function(_K)
 			if r then
 				local S = false
 				for index,Data in pairs(_K.ServerBans) do
-					print(Data[1])
 					if Data[1] == m then
 						S=true
 						context._K.Remote.Notify:FireClient(context.fromPlayer, { Text = player .. ` has been unbanned.` })
